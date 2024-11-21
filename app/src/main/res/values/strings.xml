@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="app_name">Mi Lista de Palabras</string>
+    <string name="word_list_title">Lista de Palabras</string>
+    <string name="edit_word_title">Editar Palabra</string>
+
+
+    <string name="add_word_button">Agregar Palabra</string>
+    <string name="save_button">Guardar</string>
+
+
+    <string name="word_edit_hint">Editar Palabra</string>
+    <string name="word_placeholder">Nueva Palabra</string>
+    <string name="word_clicked_message">Palabra Seleccionada</string>
+
+
+    <string name="word_empty_error">Por favor, ingresa una palabra</string>
+
+</resources>

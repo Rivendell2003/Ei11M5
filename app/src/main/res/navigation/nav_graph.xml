@@ -1,0 +1,30 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/wordListFragment">
+
+    <fragment
+        android:id="@+id/wordListFragment"
+        android:name="com.example.ei11m5.WordListFragment"
+        android:label="Words List"
+        tools:layout="@layout/fragment_word_list">
+        <action
+            android:id="@+id/action_wordListFragment_to_wordEditFragment"
+            app:destination="@id/wordEditFragment">
+            <argument
+                android:name="wordText"
+                app:argType="string" />
+        </action>
+    </fragment>
+
+    <fragment
+        android:id="@+id/wordEditFragment"
+
+        android:label="Edit Word"
+        tools:layout="@layout/fragment_word_edit">
+        <argument
+            android:name="wordText"
+            app:argType="string" />
+    </fragment>
+
+</navigation>
